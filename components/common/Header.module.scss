@@ -1,5 +1,94 @@
 .header {
-  background-color: blue;
-  color: white;
-  font-size: 24px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: fixed;
+    z-index: 10;
+
+    &.active {
+        background-color: #fffffff2;
+        backdrop-filter: blur(2px);
+        box-shadow: #1a1a1a24 0px 5px 20px 0px;
+        transition: all .3s ease;
+
+        .header_wrap {
+            h1 {
+                color: #000;
+            }
+
+            ul {
+                li {
+                    &.act a {
+                        color: #000;
+                    }
+
+                    a {
+                        color: #959595;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .header_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+            li {
+                width: 100px;
+                text-align: center;
+
+                &.act a {
+                    display: block;
+                    line-height: 100%;
+                    color: #fff;
+                }
+
+                a {
+                    display: block;
+                    line-height: 100%;
+                    color: #959595;
+                }
+
+            }
+        }
+
+        h1 {
+            color: #fff;
+        }
+    }
 }
+
+// #sub-header {
+//     width: 100%;
+//     height: 50px;
+//     display: flex;
+//     margin: 0 auto;
+//     padding: 0 30px;
+//     background-color: #dedcd0;
+//   }
+//   #sub-header .header_wrap h1 {
+//     color: #000;
+//   }
+//   #sub-header .header_wrap ul li a {
+//     color: #959595;
+//   }
+//   #sub-header .header_wrap ul li.act a {
+//     color: #000;
+//   }
