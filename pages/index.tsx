@@ -46,7 +46,7 @@ export default function index() {
   const renderSkillArray = (item: SkillProp, index: number) => {
     return (
       <div className={styles.skl} key={index}>
-        <img src={item.icon} alt="" />
+        <img src={item.icon} alt="skill" />
         <div className={styles.skl_txt}>{item.title}</div>
       </div>
     );

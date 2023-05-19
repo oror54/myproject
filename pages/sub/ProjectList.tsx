@@ -1,14 +1,24 @@
-import React from 'react';
+import React from "react";
+import styles from "@/pages/sub/Sub.module.scss";
 
 /* Constants =========================================================== */
 /* Prop =========================================================== */
 type Prop = {};
+type ProjectProp = {
+  img: any;
+  title: string;
+  content: any;
+};
 /* <ProjectList/> =========================================================== */
 export default function ProjectList() {
   return (
-    <div>
-      <h3>ProjectList</h3>
-    </div>
-  );
+    <>
+     <div className={styles.main}>
+     <section className={styles.pblsh}>
+      </section>
+     </div>
+    </>;
+
+  )
 }
 ProjectList.defaultProps = {};
