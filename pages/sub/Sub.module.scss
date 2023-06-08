@@ -4,10 +4,9 @@
         width: 100%;
         flex-direction: row;
         align-items: stretch;
-        border-top: 1px solid #000;
         border-bottom: 1px solid #000;
 
-        &:nth-child(2) {
+        &:nth-child(2n) {
             border-top: none;
         }
 

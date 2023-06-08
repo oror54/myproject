@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/pages/index.module.scss";
-
+import Image from "next/image";
 import HTML from "@/public/imgs/skl01.svg";
 import CSS from "@/public/imgs/skl02.svg";
 import JS from "@/public/imgs/skl03.svg";
@@ -46,7 +46,7 @@ export default function index() {
   const renderSkillArray = (item: SkillProp, index: number) => {
     return (
       <div className={styles.skl} key={index}>
-        <img src={item.icon} alt="skill" />
+        <Image src={item.icon} alt="skill" width={100} height={100} />
         <div className={styles.skl_txt}>{item.title}</div>
       </div>
     );
@@ -69,7 +69,12 @@ export default function index() {
       </section>
       <section className={styles.sec2}>
         <div className={styles.contact}>
-          <img src="/imgs/contact.png" />
+          <Image
+            src="/imgs/contact.png"
+            width={100}
+            height={100}
+            alt="contact"
+          />
           <div className={styles.con}>
             <h2>Contact</h2>
             <p>간단설명</p>
