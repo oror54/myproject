@@ -22,8 +22,9 @@ export default function ProjectList() {
           <Image
             src="/imgs/pblsh01.jpg"
             alt="오십견각도계"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
+            priority
           />
         </>
       ),
@@ -46,8 +47,8 @@ export default function ProjectList() {
           <Image
             src="/imgs/pblsh02.jpg"
             alt="솔루션"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -66,10 +67,10 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh03.jpg"
+            src="/imgs/pblsh03.jpeg"
             alt="기술장인"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -91,10 +92,10 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh04.jpg"
+            src="/imgs/pblsh04.jpeg"
             alt="건물임대관리"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -116,10 +117,10 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh05.jpg"
+            src="/imgs/pblsh05.jpeg"
             alt="장보고"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -141,10 +142,10 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh06.jpg"
+            src="/imgs/pblsh06.jpeg"
             alt="동네시대"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -164,10 +165,10 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh07.jpg"
+            src="/imgs/pblsh07.jpeg"
             alt="홀리데이"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -187,10 +188,10 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh08.jpg"
+            src="/imgs/pblsh08.jpeg"
             alt="케어플러스"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
           />
         </>
       ),
@@ -211,10 +212,34 @@ export default function ProjectList() {
       image: (
         <>
           <Image
-            src="/imgs/pblsh09.jpg"
+            src="/imgs/pblsh09.jpeg"
             alt="케어플러스"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
+          />
+        </>
+      ),
+      title: "케어플러스",
+      client: "씨플러스",
+      date: <>2022. 07</>,
+      skills: (
+        <>
+          <p> HTML </p>
+          <p>CSS</p>
+          <p>Javascript</p>
+          <p>illustrator</p>
+          <p>Figma</p>
+        </>
+      ),
+    },
+    {
+      image: (
+        <>
+          <Image
+            src="/imgs/pblsh10.jpeg"
+            alt="케어플러스"
+            width={700}
+            height={700}
           />
         </>
       ),

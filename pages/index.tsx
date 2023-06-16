@@ -71,8 +71,8 @@ export default function index() {
         <div className={styles.contact}>
           <Image
             src="/imgs/contact.png"
-            width={100}
-            height={100}
+            width={700}
+            height={700}
             alt="contact"
           />
           <div className={styles.con}>
